@@ -1,3 +1,9 @@
+'use client'
+import React from "react";
+import { Registrer } from "../../services/firebase/auth";
+import "./registrer.css";
+
+
 function register() {
 
     const [state, setState] = React.useState({
